@@ -24,4 +24,4 @@ To create a personal portfolio website using *HTML, CSS, and JavaScript* that hi
 - Can now confidently share the site with recruiters and clients
 
 ## 🔗 Live Demo
-[Click here to view the portfolio]()
+[Click here to view the portfolio](https://rakesh-fullstack21.github.io/OIBSIP_Web-Development-and-Designing_task-2/)
