@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Portfolio</a>
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+            
+          </div>
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <img
+            src="images/profile.jpeg"
+            alt="Profile"
+            class="hero-img"
+          />
+          <h1 class="delay-1">
+            Hi, I'm <span class="highlight">Rakesh Rosan Swain</span>
+          </h1>
+          <h2 class="delay-2">Frontend Developer</h2>
+          <p class="delay-3">
+            I create beautiful, responsive websites with modern technologies.
+            Passionate about building user-friendly digital experiences.
+          </p>
+          <a href="#contact" class="btn delay-3">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-img fade-in">
+            <img
+              src="images/about.jpeg"
+              alt="About Me"
+            />
+          </div>
+          <div class="about-text fade-in delay-1">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a passionate frontend developer with 2 years of experience
+              creating modern web applications. I specialize in HTML, CSS,
+              JavaScript and React.
+            </p>
+            <p>
+              My journey in web development started when I was in college, and
+              since then I've been constantly learning new technologies to
+              improve my skills.
+            </p>
+            <div class="skills">
+              <span class="skill">HTML5</span>
+              <span class="skill">CSS3</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                alt="E-commerce Website"
+              />
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Website</h3>
+              <p>
+                A fully responsive e-commerce platform with product listings,
+                cart functionality and checkout.
+              </p>
+              <div class="project-links">
+                <a href="#"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in delay-1">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                alt="Task Manager App"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Task Manager App</h3>
+              <p>
+                A productivity application for managing daily tasks with
+                drag-and-drop functionality.
+              </p>
+              <div class="project-links">
+                <a href="#"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card fade-in delay-2">
+    <div class="project-img">
+        <img src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Weather Dashboard">
+    </div>
+    <div class="project-info">
+        <h3>Weather Dashboard</h3>
+        <p>A responsive weather application showing current conditions and 5-day forecast with dynamic weather icons.</p>
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Weather API</span>
+        </div>
+        <div class="project-links">
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <div class="container">
+        <h2 class="section-title">My Resume</h2>
+        <div class="resume-container fade-in">
+          <div class="resume-download">
+            <img
+              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+              alt="Resume"
+            />
+            <div class="resume-buttons">
+              <a href="rakesh-resume.pdf" download class="btn">
+                <i class="fas fa-download"></i> Download PDF
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-paper-plane"></i> Hire Me
+              </a>
+            </div>
+          </div>
+          <div class="resume-details">
+            <div class="education">
+              <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <h4>Bachelor of Technology in Computer Science</h4>
+                  <p>Nalanda Institute Of Technology | 2022-2026</p>
+                  <p>CGPA: 7.9/10</p>
+                </div>
+                <div class="timeline-item">
+                  <h4>12th Grade (PCM)</h4>
+                  <p>Rajdhani Higher Secondary School | 2020-2022</p>
+                  <p>Percentage: 56%</p>
+                </div>
+              </div>
+            </div>
+            <div class="experience">
+              <h3><i class="fas fa-briefcase"></i> Experience</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <h4>Frontend Developer Intern</h4>
+                  <p>Tech Solutions Pvt. Ltd. | Jun 2022 - Dec 2022</p>
+                  <ul>
+                    <li>Developed responsive web interfaces using React</li>
+                    <li>Collaborated with team on UI/UX improvements</li>
+                    <li>Fixed bugs and optimized performance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info fade-in">
+            <h3>Get in Touch</h3>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>swainrakeshrosan328@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 98765 43210</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bhubaneswar, India</span>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="contact-form fade-in delay-1">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Rakesh Rosan Swain. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
